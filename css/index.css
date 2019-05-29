@@ -103,6 +103,7 @@
     cursor:pointer;
     font-size:1rem;
     box-shadow: 0 9px #999;
+    margin-left:37%;
 }
 .button2:hover{
     background-color:rgb(247, 172, 10);
@@ -122,6 +123,7 @@
     font-family:'VT323', monospace;
     font-size:4rem;
     color:rgb(6, 190, 190);
+    padding:50px 0
 }
 .top-content h3{
     font-size:1.5rem;
@@ -133,11 +135,11 @@
     width:100%;
     /* justify-content: space-around; */
     height:85vh;
-    background-color: rgb(226, 226, 225);
+    background-color:rgb(199, 191, 191);
  }
 
  .child1{
-     width:40%;
+     width:100%;
      /* background-color: rgb(226, 226, 225); */
      border-radius:20px;
      text-align: center;
@@ -145,7 +147,52 @@
      width:90%;
      padding:50px;
      line-height: 29px;
+     /* border:2px solid blue; */
  }
+ .child2{
+    width:100%;
+    /* background-color: rgb(226, 226, 225); */
+    border-radius:20px;
+    text-align: center;
+    font-size: 1.3rem;  
+    width:90%;
+    padding:50px;
+    line-height: 29px;
+    /* border:2px solid darkorange; */
+}
+@keyframes  random {
+    15% { color: red; } 
+    30% { color: yellow; } 
+    45% { color: green; } 
+    60% { color: blue; }
+    75% { color: rgb(4, 142, 160); }  
+}
+.child2 .chop h2{
+    width:110%;
+    /* border:2px solid red; */
+    height:70px;
+}
+.child2 .chop h2:hover{
+    width:110%;
+    height:80px;
+    -webkit-animation: random 5s infinite;
+    animation: random 5s infinite;
+}
+
+.child2 .chop2 h2{
+    width:110%;
+    /* border:2px solid red; */
+    height:70px;
+    color:limegreen;
+}
+.child2 .chop2 h2:hover{
+    width:100%;
+    height:80px;
+    -webkit-animation: random 5s infinite;
+    animation: random 5s infinite;
+}
+
+
  #second{
      text-align: center;
      margin-left:60px;
@@ -161,15 +208,15 @@
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      margin-bottom:30px;
      text-align: left;
-     width:50%;
-     /* border:2px solid red; */
-     width:80%;
+
+     /* border:2px solid rgb(168, 51, 71); */
+     width:100%;
      height:40px;
      -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
      transition: width 2s, height 2s, transform 2s;
  }
  .child1 h2:hover{
-    width: 80%;
+    width: 100%;
     height: 80px;
     -webkit-transform: rotate(360deg); 
     transform: rotate(360deg);
@@ -195,7 +242,7 @@
     height:45vh;
     border-radius:30px;
     background-image: url("https://www.heartfoundation.org.au//images/made/images/uploads/main/Healthy-fats_1200_630_85_s_c1.jpg");
-    background-size: cover;
+    background-size:100% 100%;;
   }
 
 .textt{
@@ -235,6 +282,7 @@
 	font-family:"Times New Roman", Times, serif;
     padding:30px;
     margin-top:50px;
+    cursor:default;
 }
 
 .img2:hover .textt2{
@@ -246,6 +294,8 @@
 	font-family:"Times New Roman", Times, serif;
     padding:30px;
     margin-top:50px;
+    cursor:default;
+
 }
 .img3:hover .textt3{
     opacity:0.6;
@@ -256,6 +306,8 @@
 	font-family:"Times New Roman", Times, serif;
     padding:30px;
     margin-top:50px;
+    cursor:default;
+
 }
  .pics{
      display: flex;
@@ -265,12 +317,13 @@
 
 
  #mid-cont{
-     background-color: #3a3939;
+     background-color: #3b3838;
      color:white;
      height:130vh;
      /* border:2px solid red; */
      width:95%;
      margin-left:2.5%;
+     
  }
   
  #mid-cont h2{
@@ -308,43 +361,82 @@
     background-image: url("https://mymodernlaw.com/wp-content/uploads/2014/08/pediatrician-salary.jpg");
     background-size: cover;
   }
+  #mid-cont2 {
+   /* border:2px solid red; */
+   display: flex;
+   background-image: url("https://backgrounddownload.com/wp-content/uploads/2018/09/healthy-food-background-images-6.jpg");
+   background-size:100% 100%;
+   height:100vh;
+  }
   #mid-cont2 p{
-      text-align: left;
+      text-align: center;;
       line-height: 40px;
       width:90%;
       padding:15px;
+      font-family:'Courier New', Courier, monospace;
+      font-size: .9rem;
   }
 
-  #mid-cont2 h2{
-    color:rgb(214, 51, 214);
+  .middle-content .child2 .chop h2{
+    color:rgb(28, 46, 207);
+    background-color:rgb(218, 216, 201);
+    border-radius:10px;
+    padding:20px 0;
 }
 .drake{
     background-color: white;
     border-radius:20px;
+    width:100%;
 }
+
+
+
+
+
 .chop h2{
- width:50%;
+ width:100%;
  /* border:2px solid red; */
  height:40px;
  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
  transition: width 2s, height 2s, transform 2s;
 }   
 .chop h2:hover{
-    width: 80%;
+    width: 100%;
     height: 80px;
     -webkit-transform: rotate(360deg); 
     transform: rotate(360deg);
 }
+.chop2 h2{
+    width:100%;
+    /* border:2px solid red; */
+    height:40px;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+    color:limegreen;
+   }   
+.chop2 h2:hover{
+       width: 100%;
+       height: 80px;
+       -webkit-transform: rotate(360deg); 
+       transform: rotate(360deg);
+   }
+
+
 .bottom-content{
     background-color: white;
-    display: flex;
-    justify-content: space-around;
+    width:100%;
+    
 }
 .kids{
     background-color: rgb(226, 226, 225);
-    background-color: #3a3939;
-    width:40%;
+    /* background-color: #3a3939; */
+    width:70%;
     height:60vh;
+    text-align: center;
+    line-height:30px;
+    border-radius:30px;
+    padding:20px;
+    margin-left:15%;
 }
 .bottom-content{
     margin-top:40px;
@@ -353,21 +445,150 @@ footer{
     display:flex;
     background-color:teal;
     justify-content: space-around;
-    height:30vh;
+    height:25vh;
     margin-top:50px;
+    padding: 10px;
 }
 .rest{
-    width:20%;
-    text-align: center;
+    width:30%;
+    /* text-align: center; */
     line-height: 30px;
-    padding:5px;
+    /* padding:5px; */
     margin-top:10px;
 }
 .rest1{
     padding:70px 0;
     color:gold;
+    
 }
 .rest h3 {
-   color:black;
+   color:rgb(27, 212, 98);
    font-size:20px;
 }  
+.pictures{
+    width:98%;
+    height:100%;
+    border-radius:10px;
+}
+
+
+/* ALL MY BUTTONS ON THE PAGE */
+
+/* HEADER SIGN IN BUTTON */
+#first{
+    background-color:goldenrod;
+    width:9%;
+    margin-bottom:3px;
+    margin-top:10px;
+    font-size:17px;
+    height:35px;
+    padding:5px;
+    box-shadow: 0 9px teal;
+}
+#first:hover{
+    background-color:blueviolet;
+    width:12%;
+}
+#first:active{
+    background-color:rgb(22, 204, 22);
+    color:white;
+    width:12%;
+}
+
+
+
+
+/* LEARN MORE BUTTON */
+.button1{
+    color:white;
+    background-color: #157D7C;
+    width:13%;
+    padding:10px;
+    border-radius: 15px;
+    margin-top:15px;
+    /* -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s; */
+    cursor:pointer;
+    /* box-shadow: 0 9px #999; */
+}
+.button1:hover{
+    background-color:rgb(247, 10, 215);
+    color:white;
+    width:16%;
+    -webkit-transition: width ;
+    transition: width 0.3s;
+}
+.button1:active{
+    background-color:rgb(22, 209, 22);
+    color:white;
+    width:16%;
+    -webkit-transition: width ;
+    transition: width 0.3s;
+    /* box-shadow: 0 3px #666; */
+    transform: translateY(4px);
+}
+
+
+
+
+/* CLICK HERE FOR MACROS BUTTON */
+.button2{
+    color:white;
+    background-color: rgb(3, 141, 139);
+    width:25%;
+    padding:10px;
+    border-radius: 15px;
+    margin-top:20px;
+    /* -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s; */
+    cursor:pointer;
+    /* font-size:1rem; */
+    /* box-shadow: 0 9px #999; */
+    margin-left:37%;
+}
+.button2:hover{
+    background-color:rgb(247, 172, 10);
+    color:blue;;
+    width:30%;
+    /* height:50px; */
+    -webkit-transition: width ;
+    transition: width 0.3s ;
+}
+.button2:active{
+  background-color:rgb(44, 192, 44);
+  color:white;
+  /* box-shadow: 0 3px #666; */
+  transform: translateY(4px);
+}
+
+
+
+/* WRITE TO US BUTTON */
+.btn{
+/* font-size:15px; */
+color:white;
+background-color:red;
+padding:5px;
+width:25%;
+text-decoration: none;
+cursor:pointer;
+border-radius:10px;
+}
+.btn:hover{
+    color:white;
+    background-color:rgb(11, 95, 91);
+    width:30%;
+    -webkit-transition: width ;
+    transition: width 0.3s;
+    }
+.btn:active{
+    background-color:rgb(44, 192, 44);
+    color:white;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px); 
+}
+.bottom-content .kids form input{
+    width:30%;
+    height:20px;
+    
+}
