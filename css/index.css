@@ -1,0 +1,373 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  header{
+      background-color:#157D7C;
+      display: flex;
+      justify-content: space-between;
+      height:60px;
+      position: fixed;
+      width:100%;
+  }
+  header h2{
+      height:80px;
+      margin-top:20px;
+      margin-left:20px;
+      color:rgb(238, 217, 101);
+  }
+  nav {
+      margin:20px;
+  }
+  nav a{
+      text-decoration: none;
+      color:white;
+      margin:20px;
+      font-size: 20px;
+      
+  }
+  nav a:hover{
+      color:yellowgreen;
+      /* font-size: 30px;
+      -webkit-transition: font-size 1s ;
+    transition: font-size 1s; */
+  }
+.top-content{
+    background-image:url("http://media.istockphoto.com/photos/frame-of-vegetables-and-fruits-picture-id511193144?k=6&m=511193144&s=612x612&w=0&h=JteYy-pso3nPKbSnpWEUDRjH9Fv8bbIicNmKYb6Hk2Q=");
+    background-size:100% 100%;
+    height:90vh;
+    box-shadow: 2px 10px 30px;
+    text-align: center;
+    padding:250px 0
+}
+#first{
+    background-color:goldenrod;
+    width:9%;
+    margin-bottom:3px;
+    margin-top:10px;
+    font-size:17px;
+    height:35px;
+    padding:5px;
+    box-shadow: 0 9px teal;
+}
+#first:hover{
+    background-color:blueviolet;
+    width:12%;
+}
+#first:active{
+    background-color:rgb(22, 204, 22);
+    color:white;
+    width:12%;
+}
+
+.button1{
+    color:white;
+    background-color: #157D7C;
+    width:13%;
+    padding:10px;
+    border-radius: 15px;
+    margin-top:15px;
+    /* -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s; */
+    cursor:pointer;
+    box-shadow: 0 9px #999;
+}
+
+
+.button1:hover{
+    background-color:rgb(247, 10, 215);
+    color:white;
+    width:16%;
+    -webkit-transition: width ;
+    transition: width 0.3s;
+}
+.button1:active{
+    background-color:rgb(22, 209, 22);
+    color:white;
+    width:16%;
+    -webkit-transition: width ;
+    transition: width 0.3s;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+.button2{
+    color:white;
+    background-color: rgb(3, 141, 139);
+    width:25%;
+    padding:10px;
+    border-radius: 15px;
+    margin-top:20px;
+    /* -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s; */
+    cursor:pointer;
+    font-size:1rem;
+    box-shadow: 0 9px #999;
+}
+.button2:hover{
+    background-color:rgb(247, 172, 10);
+    color:blue;;
+    width:30%;
+    height:50px;
+    -webkit-transition: width  height;
+    transition: width 0.3s height 0.3s;
+}
+.button2:active{
+  background-color:rgb(44, 192, 44);
+  color:white;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+.top-content h1{
+    font-family:'VT323', monospace;
+    font-size:4rem;
+    color:rgb(6, 190, 190);
+}
+.top-content h3{
+    font-size:1.5rem;
+}
+ .middle-content{
+    /* border:2px solid red; */
+    margin-top:30px;
+    /* display:flex; */
+    width:100%;
+    /* justify-content: space-around; */
+    height:85vh;
+    background-color: rgb(226, 226, 225);
+ }
+
+ .child1{
+     width:40%;
+     /* background-color: rgb(226, 226, 225); */
+     border-radius:20px;
+     text-align: center;
+     font-size: 1.3rem;  
+     width:90%;
+     padding:50px;
+     line-height: 29px;
+ }
+ #second{
+     text-align: center;
+     margin-left:60px;
+ }
+ #second h2{
+    text-align:right;
+    width:100%;
+}
+
+
+ .child1 h2{
+     color: orangered;
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     margin-bottom:30px;
+     text-align: left;
+     width:50%;
+     /* border:2px solid red; */
+     width:80%;
+     height:40px;
+     -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+     transition: width 2s, height 2s, transform 2s;
+ }
+ .child1 h2:hover{
+    width: 80%;
+    height: 80px;
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+
+
+ .img1{
+   width:30%;
+   height:45vh;
+   border-radius:30px;
+   background-image: url("https://thefederalist.com/wp-content/uploads/2015/08/shutterstock_257677624_opt.jpg");
+   background-size: cover;
+ }
+ .img2{
+    width:30%;
+    height:45vh;
+    border-radius:30px;
+    background-image: url("https://img.etimg.com/thumb/msid-68901287,width-643,imgsize-354672,resizemode-4/protein-food-eat-meat-fruit.jpg");
+    background-size: cover;
+  }
+.img3{
+    width:30%;
+    height:45vh;
+    border-radius:30px;
+    background-image: url("https://www.heartfoundation.org.au//images/made/images/uploads/main/Healthy-fats_1200_630_85_s_c1.jpg");
+    background-size: cover;
+  }
+
+.textt{
+    width:80%;
+    margin-left:50px;
+    padding:100px 0;
+    font-size:1.2rem;
+    background:#FFF;
+	opacity:0;
+}
+
+.textt2{
+    width:80%;
+    margin-left:50px;
+    padding:100px 0;
+    font-size:1.2rem;
+    background:#FFF;
+	opacity:0;
+}
+
+.textt3{
+    width:80%;
+    margin-left:50px;
+    padding:100px 0;
+    font-size:1.2rem;
+    background:#FFF;
+    opacity:0;
+  
+}
+
+.img1:hover .textt{
+    opacity:0.6;
+	text-align:justify;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+    padding:30px;
+    margin-top:50px;
+}
+
+.img2:hover .textt2{
+    opacity:0.6;
+	text-align:justify;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+    padding:30px;
+    margin-top:50px;
+}
+.img3:hover .textt3{
+    opacity:0.6;
+	text-align:justify;
+	color:#000000;
+	font-size:20px;
+	font-weight:700;
+	font-family:"Times New Roman", Times, serif;
+    padding:30px;
+    margin-top:50px;
+}
+ .pics{
+     display: flex;
+     justify-content: space-around;
+ }
+
+
+
+ #mid-cont{
+     background-color: #3a3939;
+     color:white;
+     height:130vh;
+     /* border:2px solid red; */
+     width:95%;
+     margin-left:2.5%;
+ }
+  
+ #mid-cont h2{
+    text-align: right;
+    color:rgb(21, 194, 93);
+    width:80%;
+    height:40px;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+#mid-cont h2:hover{
+    width: 80%;
+    height: 80px;
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+#mid-cont p{
+    line-height:60px;
+}
+#mid-cont .note{
+    color:red;
+}
+
+.img4{
+    width:40%;
+    height:45vh;
+    border-radius:30px;
+    background-image: url("https://cdn-images-1.medium.com/max/1600/0*ye46lKxDFbnNWe5n.jpg");
+    background-size: cover;
+  }
+  .img5{
+    width:40%;
+    height:45vh;
+    border-radius:30px;
+    background-image: url("https://mymodernlaw.com/wp-content/uploads/2014/08/pediatrician-salary.jpg");
+    background-size: cover;
+  }
+  #mid-cont2 p{
+      text-align: left;
+      line-height: 40px;
+      width:90%;
+      padding:15px;
+  }
+
+  #mid-cont2 h2{
+    color:rgb(214, 51, 214);
+}
+.drake{
+    background-color: white;
+    border-radius:20px;
+}
+.chop h2{
+ width:50%;
+ /* border:2px solid red; */
+ height:40px;
+ -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+ transition: width 2s, height 2s, transform 2s;
+}   
+.chop h2:hover{
+    width: 80%;
+    height: 80px;
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+.bottom-content{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.kids{
+    background-color: rgb(226, 226, 225);
+    background-color: #3a3939;
+    width:40%;
+    height:60vh;
+}
+.bottom-content{
+    margin-top:40px;
+}
+footer{
+    display:flex;
+    background-color:teal;
+    justify-content: space-around;
+    height:30vh;
+    margin-top:50px;
+}
+.rest{
+    width:20%;
+    text-align: center;
+    line-height: 30px;
+    padding:5px;
+    margin-top:10px;
+}
+.rest1{
+    padding:70px 0;
+    color:gold;
+}
+.rest h3 {
+   color:black;
+   font-size:20px;
+}  
