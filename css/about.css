@@ -367,6 +367,99 @@ footer nav{
       }
 
 }
+
+@media(max-width:800px){
+    .container{
+        width:100%;
+    }
+    header{
+        background-color:rgb(16, 158, 51);
+    }
+    .box1{
+        padding:40px;
+    }
+    .holder{
+    /* border:2px solid red; */
+    padding:5px;
+    width:100%;
+    overflow: hidden;
+    height:350px;
+    }
+    .holder .hold p{
+      display:none;
+        }
+    .holder .hold {
+     background-color:rgb(212, 214, 213);
+    }
+    .holder .hold h3 {
+        color:rgb(131, 16, 238);
+    }
+    .top-content{
+        margin-top:80px;
+    }
+    .holder2{
+        /* border:2px solid red; */
+        padding:5px;
+        width:100%;
+        overflow: hidden;
+        height:350px;
+        }
+        .holder2 .hold2 p{
+          display:none;
+        }
+    .holder2 .hold2 h3 {
+            color:rgb(131, 16, 238);
+    }
+    /* FOOTER SECTION */
+    footer{
+        display:flex;
+        background-color:teal;
+        justify-content: space-around;
+        height:30vh;
+        margin-top:50px;
+        padding: 10px;
+        }
+        .rest1 {
+        display:none;
+        width:3%;
+        padding:70px 0;
+        color:gold;
+        background-color:red;
+        margin-top:10px;
+        }
+        .rest{
+        width:30%;
+        /* text-align: center; */
+        line-height: 30px;
+        margin-top:10px;
+        background-color:rgb(6, 51, 51);
+        border-radius:5px;
+
+        }
+        .rest h3 {
+       color:rgb(27, 212, 98);
+       font-size:17px;
+       margin-left:40px;
+
+        } 
+        #try h3{
+          margin-left:50px;
+        }
+        #try2 h3{
+            margin-left:70px;
+          }
+          .rest nav{
+              width:100%;
+              margin-left:30px;
+
+          }
+          .rest nav a{
+              margin-left:0px;
+        }
+
+
+
+}
 /* mobile view */
 @media(max-width:500px){
     header{
@@ -463,6 +556,13 @@ footer nav{
         margin-left:2px;
 
     }
+    .holder{
+       margin-top:0px;
+       overflow: auto;
+    }
+    .holder2{
+        margin-top:0px;
+    }
     .holder .hold{
         width:100%;
         margin-top: 20px;
@@ -484,6 +584,7 @@ footer nav{
     .holder2{
         flex-direction: column;
         width:100%;
+        overflow: auto;
     }
     .holder2 .hold2{
         width:100%;
@@ -553,6 +654,12 @@ footer nav{
             background-color:rgb(47, 230, 108);
             width:100%;
     }      
-
+    .holder2 .hold2 p{
+        display:inherit;
+    }
+    .holder .hold p{
+        display:inherit;
+    }
+    
 
 }
